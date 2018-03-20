@@ -20,7 +20,15 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd
+* mkdir
+* rm -rf
+* touch websites.txt
+* rm websites.txt
+* mv websites.txt websites2.txt
+* ls -a
+* mv websits.txt metis
+
 
 ---
 
@@ -35,7 +43,6 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -d
+ls -R
+ls -u
+ls -1
+ls -x
 
 ---
 
@@ -51,7 +62,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Used to run the same command on multiple the lines of a list of lines. 
+cat websites.txt | xargs dig
 
  
 
