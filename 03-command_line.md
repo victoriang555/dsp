@@ -62,8 +62,5 @@ ls -x
 
 What does `xargs` do? Give an example of how to use it.
 
-Used to run the same command on multiple the lines of a list of lines. Tested below with the file websites.txt.
+Used to run the same command on multiple the lines of a list of lines. Tested below with the file websites.txt. Adding another line for testing. 
 cat websites.txt | xargs dig
-
- 
-
